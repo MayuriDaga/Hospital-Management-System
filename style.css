@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\Users\Soham\OneDrive\Desktop\New folder\hospital-background.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for text */
+    padding: 10px; /* Padding for the title */
+    border-radius: 8px; /* Rounded corners for the title background */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.box h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+.box a {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.box a:hover {
+    background-color: #003b80;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}
+
+#patientList, #doctorList {
+    margin-top: 20px;
+}
+
+#patientList p, #doctorList p {
+    margin: 5px 0;
+    color: #555;
+}
